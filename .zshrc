@@ -6,6 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 source /home/filipe/antigen.zsh
+source /usr/share/nvm/init-nvm.sh
 
 antigen use oh-my-zsh
 antigen bundle git
